@@ -1,0 +1,150 @@
+<mxfile host="app.diagrams.net" modified="2023-11-10T11:25:08.685Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="JG74shuFowPRoPPgPeV6" version="22.1.0" type="device">
+  <diagram id="vZE4i3VmZEkOruUmKEQ9" name="Page-1">
+    <mxGraphModel dx="625" dy="329" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Node2:&#xa;Publisher" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="160" y="133" width="82" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="LUezaOSxflrylQOT-aMg-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="4" target="LUezaOSxflrylQOT-aMg-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LUezaOSxflrylQOT-aMg-32" value="*.msg" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="LUezaOSxflrylQOT-aMg-22" vertex="1" connectable="0">
+          <mxGeometry x="0.0177" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4" value="Topic1" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="317" y="50" width="53" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Topic2" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="317" y="133" width="53" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="LUezaOSxflrylQOT-aMg-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="6" target="LUezaOSxflrylQOT-aMg-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LUezaOSxflrylQOT-aMg-29" value="*.msg" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="LUezaOSxflrylQOT-aMg-21" vertex="1" connectable="0">
+          <mxGeometry x="-0.1456" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6" value="Topic3" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="317" y="217" width="53" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Node5:&#xa;Subscriber" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="440" y="133" width="90" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="" style="curved=1;startArrow=none;endArrow=block;entryX=0.005277237802181604;entryY=0.5060606291799834;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="LUezaOSxflrylQOT-aMg-14" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="292" y="67" />
+            </Array>
+            <mxPoint x="250.44771638112445" y="133" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUezaOSxflrylQOT-aMg-23" value="*.msg" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9" vertex="1" connectable="0">
+          <mxGeometry x="-0.1703" y="1" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="" style="curved=1;startArrow=none;endArrow=block;entryX=0.005277237802181604;entryY=0.5181818875399503;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="2" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="267.0000000000001" y="150.09396130058167" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUezaOSxflrylQOT-aMg-24" value="message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="10" vertex="1" connectable="0">
+          <mxGeometry x="-0.078" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="" style="curved=1;startArrow=none;endArrow=block;entryX=0.005277237802181604;entryY=0.5000001155968868;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="LUezaOSxflrylQOT-aMg-17" target="6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="292" y="234" />
+            </Array>
+            <mxPoint x="249.68833444733457" y="166" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUezaOSxflrylQOT-aMg-25" value="*.msg" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="11" vertex="1" connectable="0">
+          <mxGeometry x="-0.2037" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1.0082842988787957;exitY=0.5060606291799834;entryX=0.3507887569564812;entryY=0.012121258359966856;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="4" target="7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="395" y="67" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUezaOSxflrylQOT-aMg-31" value="*.msg" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="12" vertex="1" connectable="0">
+          <mxGeometry x="0.0891" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1.0082842988787957;exitY=0.5181818875399503;entryX=0.004878531561957465;entryY=0.5181818875399503;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="5" target="7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUezaOSxflrylQOT-aMg-27" value="message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="13" vertex="1" connectable="0">
+          <mxGeometry x="-0.1592" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1.0082842988787957;exitY=0.5000001155968868;entryX=0.3507887569564812;entryY=1.0242425167199336;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="6" target="7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="395" y="234" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUezaOSxflrylQOT-aMg-28" value="*.msg" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="14" vertex="1" connectable="0">
+          <mxGeometry x="0.2087" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mrIgy4RIm2poSd0aOaNL-16" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;curved=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="LUezaOSxflrylQOT-aMg-14" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="201" y="110" />
+              <mxPoint x="344" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mrIgy4RIm2poSd0aOaNL-17" value="*.msg" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mrIgy4RIm2poSd0aOaNL-16">
+          <mxGeometry x="0.1589" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUezaOSxflrylQOT-aMg-14" value="Node1:&#xa;Publisher" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="160" y="68" width="82" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="mrIgy4RIm2poSd0aOaNL-14" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;curved=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="LUezaOSxflrylQOT-aMg-17" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="201" y="190" />
+              <mxPoint x="340" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mrIgy4RIm2poSd0aOaNL-18" value="*.msg" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mrIgy4RIm2poSd0aOaNL-14">
+          <mxGeometry x="0.1653" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUezaOSxflrylQOT-aMg-17" value="Node3:&#xa;Publisher" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="160" y="200" width="82" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="LUezaOSxflrylQOT-aMg-18" value="Node5:&#xa;Subscriber" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="440" y="50" width="90" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="LUezaOSxflrylQOT-aMg-19" value="Node6:&#xa;Subscriber" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="440" y="217" width="90" height="33" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

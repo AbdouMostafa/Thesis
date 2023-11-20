@@ -1,0 +1,37 @@
+while count < 5:
+
+    pre = FX_ROS.Get_FK(joints=FX_ROS.Get_joitns()).position
+
+    FX_ROS.Move_pose_axis('x', add=0.1)
+    FX_ROS.Move_pose_axis('y', add=0.1)
+    FX_ROS.Move_pose_axis('z', add=0.1)
+
+    
+    
+    Errors['x'].append(abs(current.x - pre.x))
+    Errors['y'].append(abs(current.y - pre.y))
+    Errors['z'].append(abs(current.z - pre.z))
+
+    count += 1
+
+    FX_ROS.Move_pose_axis('x', add=-0.1)
+    FX_ROS.Move_pose_axis('y', add=-0.1)
+    FX_ROS.Move_pose_axis('z', add=-0.1)
+
+    current = FX_ROS.Get_FK(joints=FX_ROS.Get_joitns()).position
+
+    print('Trial number number {} and the current values are: \n{}'.format(count, current))
+#FX_ROS.Move_pose_axis('roll', add=2)
+
+xerros = np.array(Errors['x'])
+yerros = np.array(Errors['y'])
+zerros = np.array(Errors['z'])
+
+x_axis = np.array(range(1,count+1,1))
+
+plt.plot(x_axis, xerros, label='Error in x_axis')
+plt.plot(x_axis, yerros, label='Error in y_axis')
+plt.plot(x_axis, zerros, label='Error in z_axis')
+plt.legend()
+plt.show()
+

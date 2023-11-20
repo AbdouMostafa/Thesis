@@ -1,0 +1,138 @@
+<mxfile host="app.diagrams.net" modified="2023-05-31T06:46:38.406Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="iWMWF2cGbTMKlhUN_zCb" version="21.3.5" type="google">
+  <diagram name="Page-1" id="XOCpxQvPaTgHTzI4O34J">
+    <mxGraphModel dx="601" dy="257" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yz0i6fvfEbCD29yf3mC6-13" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;rotation=90;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="-11.68" y="195.07" width="242" height="138.87" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Planning Scene Monitor" style="whiteSpace=wrap;strokeWidth=2;rotation=-90;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;rounded=0;align=center;horizontal=1;verticalAlign=top;fontSize=16;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="250" y="211.5" width="244" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="yz0i6fvfEbCD29yf3mC6-33" value="Point Cloud Topic" style="edgeStyle=orthogonalEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;exitX=0.843;exitY=0.077;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#008a00;strokeColor=#005700;labelBackgroundColor=none;" edge="1" parent="1" source="4" target="3">
+          <mxGeometry x="0.0286" y="-10" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="574" y="200" />
+              <mxPoint x="540" y="200" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4" value="Robot &#xa;3D Sensor" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;rounded=0;rotation=-90;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="550" y="200" width="76" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="AttachedObject" style="curved=1;startArrow=none;endArrow=block;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;rounded=0;entryX=0.781;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#60a917;strokeColor=#2D7600;" parent="1" target="3" edge="1">
+          <mxGeometry x="-0.0264" y="10" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="190" />
+            </Array>
+            <mxPoint x="180" y="190" as="sourcePoint" />
+            <mxPoint x="250" y="190" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yz0i6fvfEbCD29yf3mC6-6" value="Robot&#xa;State&#xa;Publisher" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="460" y="317.5" width="56" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yz0i6fvfEbCD29yf3mC6-24" value="Joint State Topic" style="edgeStyle=orthogonalEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.369;entryY=0.978;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=11;fillColor=#60a917;strokeColor=#2D7600;labelBackgroundColor=none;" edge="1" parent="1" source="yz0i6fvfEbCD29yf3mC6-7" target="3">
+          <mxGeometry x="-0.0157" y="-12" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="290" />
+              <mxPoint x="496" y="290" />
+              <mxPoint x="496" y="293" />
+            </Array>
+            <mxPoint x="6" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yz0i6fvfEbCD29yf3mC6-7" value="Robot &#xa;Sensors" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;rounded=0;rotation=-90;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="550" y="307.5" width="76" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="yz0i6fvfEbCD29yf3mC6-9" value="state monitor" style="ellipse;whiteSpace=wrap;html=1;align=center;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=9;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="356" y="170.5" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yz0i6fvfEbCD29yf3mC6-11" value="scene monitor" style="ellipse;whiteSpace=wrap;html=1;align=center;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=9;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="356" y="248.5" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yz0i6fvfEbCD29yf3mC6-12" value="world geometry&lt;br&gt;monitor" style="ellipse;whiteSpace=wrap;html=1;align=center;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=9;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="358" y="318.5" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yz0i6fvfEbCD29yf3mC6-14" value="move_group_interface&lt;br&gt;(C++)" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="45.98" y="160" width="126.69" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yz0i6fvfEbCD29yf3mC6-15" value="moveit_commander&lt;br&gt;(Python)" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="45.98" y="220" width="126.69" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yz0i6fvfEbCD29yf3mC6-16" value="GUI (Rviz Plugin)" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="45.98" y="282" width="126.69" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yz0i6fvfEbCD29yf3mC6-17" value="Other Interfaces" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="45.98" y="332" width="126.69" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yz0i6fvfEbCD29yf3mC6-19" value="CollisionObject" style="curved=1;startArrow=none;endArrow=block;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;rounded=0;entryX=0.688;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" target="3">
+          <mxGeometry x="-0.0167" y="9" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="180" y="215" as="sourcePoint" />
+            <mxPoint x="288" y="214.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yz0i6fvfEbCD29yf3mC6-20" value="PlanningSceneDiff" style="curved=1;startArrow=none;endArrow=block;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;rounded=0;entryX=0.581;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.392;exitY=-0.008;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="yz0i6fvfEbCD29yf3mC6-13" target="3">
+          <mxGeometry x="-0.0299" y="10" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="239.5" />
+            </Array>
+            <mxPoint x="180" y="239.5" as="sourcePoint" />
+            <mxPoint x="288" y="240.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yz0i6fvfEbCD29yf3mC6-21" value="Monitored Planning scene&#xa;(Optionally Published)" style="curved=1;startArrow=none;endArrow=block;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;rounded=0;exitX=0.18;exitY=0.003;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=10;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="3">
+          <mxGeometry x="0.0229" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="340" />
+            </Array>
+            <mxPoint x="280" y="340" as="sourcePoint" />
+            <mxPoint x="180" y="338" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yz0i6fvfEbCD29yf3mC6-25" value="" style="endArrow=none;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="340" as="sourcePoint" />
+            <mxPoint x="540" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yz0i6fvfEbCD29yf3mC6-26" value="TF" style="endArrow=classic;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=12;entryX=0.164;entryY=0.981;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fillColor=#60a917;strokeColor=#2D7600;labelBackgroundColor=none;" edge="1" parent="1" source="yz0i6fvfEbCD29yf3mC6-6" target="3">
+          <mxGeometry x="-0.0209" y="-12" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="439" as="sourcePoint" />
+            <mxPoint x="530" y="389" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yz0i6fvfEbCD29yf3mC6-27" value="" style="endArrow=none;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="yz0i6fvfEbCD29yf3mC6-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="420" as="sourcePoint" />
+            <mxPoint x="540" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yz0i6fvfEbCD29yf3mC6-29" value="" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;gradientColor=default;strokeWidth=0;" vertex="1" parent="1">
+          <mxGeometry x="534" y="285" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="yz0i6fvfEbCD29yf3mC6-35" value="Depth Image Topic" style="edgeStyle=orthogonalEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;exitX=0.843;exitY=0.077;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#008a00;strokeColor=#005700;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry x="-0.0323" y="-8" relative="1" as="geometry">
+            <mxPoint x="573" y="230" as="sourcePoint" />
+            <mxPoint x="420" y="228" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="573" y="228" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yz0i6fvfEbCD29yf3mC6-36" value="User Interface" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="45.98" y="120" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

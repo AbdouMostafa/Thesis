@@ -1,0 +1,38 @@
+current = FX_ROS.Get_FK(joints=FX_ROS.Get_joitns()).position
+print(current)
+count = 0
+Errors = {'x': [], 'y': [], 'z': []}
+
+while (abs(current.x - pour0[0]) >= 0.002) or (abs(current.y - pour0[1]) >= 0.002) or (abs(current.z - pour0[2]) >= 0.002):
+    
+    if count >= 100:
+        break
+    
+    
+    Errors['x'].append(abs(current.x - pour0[0]))
+    Errors['y'].append(abs(current.y - pour0[1]))
+    Errors['z'].append(abs(current.z - pour0[2]))
+
+    count += 1
+    FX_ROS.Move_to_pose(pour0)
+    #FX_ROS.Move_pose_axis('x', add=0.028)
+    #FX_ROS.Move_pose_axis('y', add=0.009)
+    #FX_ROS.Move_pose_axis('z', add=-0.03)
+    current = FX_ROS.Get_FK(joints=FX_ROS.Get_joitns()).position
+
+    print('Trial number number {} and the current values are: {}'.format(count, current))
+    if (abs(current.x - pour0[0]) <= 0.001) and (abs(current.y - pour0[1]) <= 0.001) and (abs(current.z - pour0[2]) <= 0.001):
+        print("\n\n Done, there are the current values: {}".format(current))
+#FX_ROS.Move_pose_axis('roll', add=2)
+
+xerros = np.array(Errors['x'])
+yerros = np.array(Errors['y'])
+zerros = np.array(Errors['z'])
+
+x_axis = np.array(range(1,count+1,1))
+
+plt.plot(x_axis, xerros, label='Error in x_axis')
+plt.plot(x_axis, yerros, label='Error in y_axis')
+plt.plot(x_axis, zerros, label='Error in z_axis')
+plt.legend()
+plt.show()

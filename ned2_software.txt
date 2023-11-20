@@ -1,0 +1,200 @@
+
+Search in video
+0:00
+hey still around we appreciate your
+0:03
+patience and dedication get ready for
+0:05
+net2's software abilities in three two
+0:09
+one
+0:12
+the robot's functionalities can be
+0:14
+greatly expanded with the use of our
+0:16
+proprietary app near your studio from
+0:19
+this interface you can connect to the
+0:21
+robot check its Hardware statuses create
+0:23
+different workspaces for your projects
+0:25
+and also use different accessories to
+0:27
+connect to the robot you have different
+0:29
+options first of which is the hotspot
+0:32
+mode then you can also choose to use the
+0:35
+Wi-Fi mode and finally if you're more
+0:37
+comfortable with a simple ethernet
+0:39
+connection you can also do that once
+0:41
+you've chosen your preferred method you
+0:43
+should be prompted to calibrate the
+0:45
+robot you'll find two different tabs in
+0:47
+near your studio which allow you to use
+0:49
+the vision set and the conveyor belt
+0:51
+with the vision set you can create
+0:53
+different workspaces and change the
+0:55
+camera's parameters for the conveyor
+0:57
+belt you can change its speed as well as
+0:59
+the direction of motion net 2 runs onto
+1:02
+Ros for Robot Operating System and uses
+1:06
+a mix of ready-made packages and of our
+1:08
+own packages our entire raw stack is
+1:11
+available on GitHub now feel free to
+1:13
+have a look at it and try to understand
+1:15
+what's really going on the motion
+1:17
+planning package we use is movement and
+1:19
+more specifically we use the KDL
+1:21
+kinematics plugin feel free to try
+1:24
+implementing another motion planning
+1:26
+package or creating your own we love to
+1:29
+see what you can come up with
+1:31
+a wide variety of programming languages
+1:33
+is available with net2 first up is block
+1:36
+you can access the blockly interface
+1:38
+directly from nerio Studio don't be
+1:41
+fooled by its ease of use you can
+1:43
+actually do quite a bit with it most of
+1:44
+you will probably be using python we've
+1:47
+developed not one but two python apis
+1:50
+that you can use to send commands to the
+1:52
+room all these apis come with a wide
+1:56
+range of examples and tutorials to show
+1:58
+you everything that's possible with the
+2:00
+room for Automation and control theory
+2:03
+Matlab may be your way to go well you're
+2:06
+in luck because we provide support for
+2:08
+that too from Matlab you can interface
+2:10
+with the robot to either simulate its
+2:13
+movements or control it directly if
+2:15
+you're better off with an Arduino
+2:17
+controller you're all set to you can
+2:19
+easily plug in your Arduino board into
+2:21
+the Raspberry Pi that's running inside
+2:23
+the robot and control the robot from a
+2:26
+distance with your Arduino control a
+2:28
+modbus TCP server is also constantly
+2:31
+running on the roof this means you can
+2:33
+easily plug in the net2 into an already
+2:35
+existing network of plcs and computer
+2:38
+which use the modbus TCP communication
+2:41
+protocol finally you can virtually use
+2:43
+any programming language you'd like
+2:45
+since the net2 is constantly running the
+2:48
+TCP ipser all you have to do is make a
+2:51
+language specific client that transforms
+2:54
+your commands into Json command packets
+2:56
+which the robot can improve you'll find
+2:59
+a tutorial online on how to do so this
+3:01
+means I'll view C plus and Java fans are
+3:04
+all set too if you'd like to run your
+3:06
+code directly from the net2's hardware
+3:08
+you can always use the python Ross
+3:11
+wrapper which lets you run Python
+3:13
+scripts on the robot without going
+3:15
+through the hassle of using Ross topics
+3:17
+and services
+3:18
+well that wraps up our presentation
+3:21
+video of the net tube I hope you found
+3:23
+all the information you were looking for
+3:24
+and chances are any questions you may
+3:27
+still have will be answered on our
+3:29
+documentation online so don't hesitate
+3:32
+to have a look at and in any case our
+3:34
+support team will be glad to help you
+3:36
+out if need be thanks for watching our
+3:38
+serious videos you'll find every link
+3:40
+you may need in the description I hope
+3:43
+you appreciated the time we spend
+3:44
+together as much as I did and if you
+3:46
+enjoyed our videos don't forget to like
+3:48
+And subscribe goodbye

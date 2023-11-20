@@ -1,0 +1,38 @@
+<fulfillmentToken fulfillmentType="loan" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:9cb786e8-586a-4950-8901-fff8d2ee6025</distributor>
+  <operatorURL>https://acs.ebookcentral.proquest.com/fulfillment</operatorURL>
+  <transaction>1910886_489236474</transaction>
+  <purchase>2023-11-14T00:59:10+00:00</purchase>
+  <expiration>2023-11-14T06:59:10+00:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:00000000-0000-0000-0000-000001910886</resource>
+    <resourceItem>0</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Applied Mechanics and Mechatronics</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Trebuňa, Frantisek;</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Trans Tech Publications, Limited</dc:publisher>
+      <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">1910886</dc:identifier>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/pdf</dc:format>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:00000000-0000-0000-0000-000001910886</resource>
+      <permissions>
+        <display>
+          <duration>15551999</duration>
+        </display>
+        <excerpt>
+          <duration>15551999</duration>
+          <count initial="114" max="114" incrementInterval="136421"/>
+        </excerpt>
+        <print>
+          <duration>15551999</duration>
+          <count initial="228" max="228" incrementInterval="68210"/>
+        </print>
+        <play>
+          <duration>15551999</duration>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>Er9XBK0x/ofvmu+8PvTt0MMef7c=</hmac>
+</fulfillmentToken>

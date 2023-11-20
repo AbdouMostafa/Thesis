@@ -1,0 +1,549 @@
+Tue, 03 May 2022 14:09:57 GMT : /niryo_robot_hardware_interface : CalibrationManager::startCalibration : Starting calibration...
+Tue, 03 May 2022 14:10:03 GMT : /niryo_robot_hardware_interface : CalibrationManager::autoCalibration - Motor 2, calibration cmd result 1 
+Tue, 03 May 2022 14:10:03 GMT : /niryo_robot_hardware_interface : CalibrationManager::autoCalibration - Motor 3, calibration cmd result 1 
+Tue, 03 May 2022 14:10:03 GMT : /niryo_robot_hardware_interface : CalibrationManager::autoCalibration - Motor 4, calibration cmd result 1 
+Tue, 03 May 2022 14:10:03 GMT : /niryo_robot_hardware_interface : CalibrationManager::autoCalibration -  Calibration successfull, going back home
+Tue, 03 May 2022 14:12:33 GMT : /niryo_robot_hardware_interface : CalibrationManager::startCalibration : Starting calibration...
+Tue, 03 May 2022 14:12:40 GMT : /niryo_robot_hardware_interface : CalibrationManager::autoCalibration - Motor 2, calibration cmd result 1 
+Tue, 03 May 2022 14:12:40 GMT : /niryo_robot_hardware_interface : CalibrationManager::autoCalibration - Motor 3, calibration cmd result 1 
+Tue, 03 May 2022 14:12:40 GMT : /niryo_robot_hardware_interface : CalibrationManager::autoCalibration - Motor 4, calibration cmd result 1 
+Tue, 03 May 2022 14:12:40 GMT : /niryo_robot_hardware_interface : CalibrationManager::autoCalibration -  Calibration successfull, going back home
+Tue, 03 May 2022 14:14:30 GMT : /niryo_robot_hardware_interface : CalibrationManager::startCalibration : Starting calibration...
+Tue, 03 May 2022 14:14:37 GMT : /niryo_robot_hardware_interface : TtlManager::readHardwareStatus - motor connection problem - Failed to read from bus (hw_fail_counter_read : 206)
+Tue, 03 May 2022 14:14:37 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor connection error
+Tue, 03 May 2022 14:14:38 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:14:38 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:14:39 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:14:39 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:14:40 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:14:40 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:14:41 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:14:41 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:14:42 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - Bus is ok
+Tue, 03 May 2022 14:14:42 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:15:02 GMT : /niryo_robot_hardware_interface : CalibrationManager::autoCalibration - calibration timeout, please try again
+Tue, 03 May 2022 14:15:02 GMT : /niryo_robot_hardware_interface : Calibration Interface - Calibration error : Calibration Interface - auto calibration failed
+Tue, 03 May 2022 14:15:17 GMT : /niryo_robot_hardware_interface : CalibrationManager::startCalibration : Starting calibration...
+Tue, 03 May 2022 14:15:18 GMT : /niryo_robot_hardware_interface : CalibrationManager::startCalibration : Starting calibration...
+Tue, 03 May 2022 14:15:24 GMT : /niryo_robot_hardware_interface : CalibrationManager::autoCalibration - Motor 2, calibration cmd result 1 
+Tue, 03 May 2022 14:15:24 GMT : /niryo_robot_hardware_interface : CalibrationManager::autoCalibration - Motor 3, calibration cmd result 1 
+Tue, 03 May 2022 14:15:24 GMT : /niryo_robot_hardware_interface : CalibrationManager::autoCalibration - Motor 4, calibration cmd result 1 
+Tue, 03 May 2022 14:15:24 GMT : /niryo_robot_hardware_interface : CalibrationManager::autoCalibration -  Calibration successfull, going back home
+Tue, 03 May 2022 14:15:30 GMT : /niryo_robot_hardware_interface : TtlManager::readHardwareStatus - motor connection problem - Failed to read from bus (hw_fail_counter_read : 230)
+Tue, 03 May 2022 14:15:30 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor connection error
+Tue, 03 May 2022 14:15:31 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:15:32 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:15:32 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:15:32 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:15:33 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:15:33 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:15:34 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:15:34 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:15:35 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:15:35 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:15:37 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:15:37 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:15:38 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:15:38 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:15:39 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:15:39 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:15:40 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:15:40 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:15:41 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:15:41 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:15:42 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:15:42 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:15:43 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:15:43 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:15:44 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:15:44 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:15:45 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:15:45 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:15:46 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:15:46 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:15:47 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:15:47 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:15:48 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:15:48 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:15:49 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:15:49 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:15:50 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:15:50 GMT : /niryo_robot_hardware_interface : TtlManager::readHardwareStatus - motor connection problem - Failed to read from bus (hw_fail_counter_read : 152)
+Tue, 03 May 2022 14:15:50 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:15:50 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:15:51 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:15:51 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:15:52 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:15:52 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:15:53 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:15:53 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:15:55 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:15:55 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:15:56 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:15:56 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:15:57 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:15:57 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:15:58 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:15:58 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:15:59 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:15:59 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:16:00 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:16:00 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:16:01 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:16:01 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:16:02 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:16:02 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:16:03 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:16:03 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:16:04 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:16:04 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:16:05 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:16:05 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:16:06 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:16:06 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:16:07 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:16:07 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:16:08 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:16:08 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:16:09 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:16:09 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:16:10 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:16:10 GMT : /niryo_robot_hardware_interface : TtlManager::readHardwareStatus - motor connection problem - Failed to read from bus (hw_fail_counter_read : 152)
+Tue, 03 May 2022 14:16:10 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:16:10 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:16:11 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:16:11 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:16:13 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:16:13 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:16:14 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:16:14 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:16:15 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:16:15 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:16:16 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:16:16 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:16:17 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:16:17 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:16:18 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:16:18 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:16:19 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:16:19 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:16:20 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:16:20 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:16:21 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:16:21 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:16:22 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:16:22 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:16:23 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:16:23 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:16:24 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:16:24 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:16:25 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:16:25 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:16:26 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:16:26 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:16:27 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:16:27 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:16:28 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:16:28 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:16:58 GMT : /niryo_robot_hardware_interface : CalibrationManager::startCalibration : Starting calibration...
+Tue, 03 May 2022 14:17:05 GMT : /niryo_robot_hardware_interface : CalibrationManager::autoCalibration - Motor 2, calibration cmd result 1 
+Tue, 03 May 2022 14:17:05 GMT : /niryo_robot_hardware_interface : CalibrationManager::autoCalibration - Motor 3, calibration cmd result 1 
+Tue, 03 May 2022 14:17:05 GMT : /niryo_robot_hardware_interface : CalibrationManager::autoCalibration - Motor 4, calibration cmd result 1 
+Tue, 03 May 2022 14:17:05 GMT : /niryo_robot_hardware_interface : CalibrationManager::autoCalibration -  Calibration successfull, going back home
+Tue, 03 May 2022 14:17:12 GMT : /niryo_robot_hardware_interface : TtlManager::readHardwareStatus - motor connection problem - Failed to read from bus (hw_fail_counter_read : 223)
+Tue, 03 May 2022 14:17:12 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor connection error
+Tue, 03 May 2022 14:17:13 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:17:14 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:17:14 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:17:14 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:17:15 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:17:15 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:17:16 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:17:16 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:17:17 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:17:17 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:17:18 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:17:18 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:17:20 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:17:20 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:17:21 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:17:21 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:17:22 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:17:22 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:17:23 GMT : /niryo_robot_hardware_interface : TtlInterfaceCore::controlLoop - motor 2 3 4 5 6 do not seem to be connected
+Tue, 03 May 2022 14:17:23 GMT : /niryo_robot_status : [Robot Status] - Motor Error - joint_1: Disconnection Error
+joint_2: Disconnection Error
+joint_3: Disconnection Error
+joint_4: Disconnection Error
+joint_5: Disconnection Error
+
+Tue, 03 May 2022 14:26:07 GMT : /niryo_robot_hardware_interface : CalibrationManager::startCalibration : Starting calibration...
+Tue, 03 May 2022 14:26:14 GMT : /niryo_robot_hardware_interface : CalibrationManager::autoCalibration - Motor 2, calibration cmd result 1 
+Tue, 03 May 2022 14:26:14 GMT : /niryo_robot_hardware_interface : CalibrationManager::autoCalibration - Motor 3, calibration cmd result 1 
+Tue, 03 May 2022 14:26:14 GMT : /niryo_robot_hardware_interface : CalibrationManager::autoCalibration - Motor 4, calibration cmd result 1 
+Tue, 03 May 2022 14:26:14 GMT : /niryo_robot_hardware_interface : CalibrationManager::autoCalibration -  Calibration successfull, going back home
+Tue, 03 May 2022 14:26:22 GMT : /niryo_robot_arm_commander : Commander Action Serv - Received goal. Check if can be executed
+Tue, 03 May 2022 14:26:22 GMT : /niryo_robot_arm_commander : Commander Action Serv - Goal has been accepted
+Tue, 03 May 2022 14:26:22 GMT : /niryo_robot_arm_commander : Arm commander - Send MoveIt trajectory to controller.
+Tue, 03 May 2022 14:26:24 GMT : /niryo_robot_arm_commander : Commander Action Serv - Goal has been set as succeeded
+Tue, 03 May 2022 14:26:25 GMT : /niryo_robot_arm_commander : Commander Action Serv - Received goal. Check if can be executed
+Tue, 03 May 2022 14:26:25 GMT : /niryo_robot_arm_commander : Commander Action Serv - Goal has been accepted
+Tue, 03 May 2022 14:26:26 GMT : /niryo_robot_arm_commander : Arm commander - Send MoveIt trajectory to controller.
+Tue, 03 May 2022 14:26:28 GMT : /niryo_robot_arm_commander : Commander Action Serv - Goal has been set as succeeded
+Tue, 03 May 2022 14:19:45 GMT : /niryo_robot_arm_commander : Commander Action Serv - Received goal. Check if can be executed
+Tue, 03 May 2022 14:19:48 GMT : /niryo_robot_hardware_interface : CalibrationManager::startCalibration : Starting calibration...

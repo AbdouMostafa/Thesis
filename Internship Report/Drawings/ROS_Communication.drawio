@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" modified="2023-05-30T10:27:28.682Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ynuo_hSCTUwjXOG4Lf6j" version="21.2.3" type="device">
+  <diagram name="Page-1" id="42789a77-a242-8287-6e28-9cd8cfd52e62">
+    <mxGraphModel dx="1250" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1ea317790d2ca983-14" value="Information&lt;br&gt;about publishers" style="edgeStyle=none;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#1A1A1A;strokeWidth=2;fontFamily=Verdana;fontSize=12;sketch=1;curveFitting=1;jiggle=2;shadow=0;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="Q7RVaMp0JTr08KpsDfkK-5" edge="1">
+          <mxGeometry x="-0.0308" y="57" relative="1" as="geometry">
+            <mxPoint x="560" y="270" as="sourcePoint" />
+            <mxPoint x="740" y="420" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1ea317790d2ca983-1" value="ROS &lt;br style=&quot;font-size: 14px;&quot;&gt;Master" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;align=center;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="477.5" y="220" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7RVaMp0JTr08KpsDfkK-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="Q7RVaMp0JTr08KpsDfkK-2" target="Q7RVaMp0JTr08KpsDfkK-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="480" />
+              <mxPoint x="670" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q7RVaMp0JTr08KpsDfkK-2" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;rotation=90;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="506.5" y="400" width="45" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7RVaMp0JTr08KpsDfkK-3" value="ROS topic" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="470" y="465" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7RVaMp0JTr08KpsDfkK-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="Q7RVaMp0JTr08KpsDfkK-4" target="Q7RVaMp0JTr08KpsDfkK-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="480" />
+              <mxPoint x="380" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q7RVaMp0JTr08KpsDfkK-4" value="Publisher&lt;br&gt;Node" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="240" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7RVaMp0JTr08KpsDfkK-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="Q7RVaMp0JTr08KpsDfkK-5" target="Q7RVaMp0JTr08KpsDfkK-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="450" />
+              <mxPoint x="620" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q7RVaMp0JTr08KpsDfkK-5" value="Subscriber&lt;br&gt;Node" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="690" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7RVaMp0JTr08KpsDfkK-9" value="Subscribe&amp;nbsp; to&lt;br&gt;topic name" style="edgeStyle=none;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#1A1A1A;strokeWidth=2;fontFamily=Verdana;fontSize=12;sketch=1;curveFitting=1;jiggle=2;shadow=0;dashed=1;entryX=0.779;entryY=0.939;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Q7RVaMp0JTr08KpsDfkK-5" target="1ea317790d2ca983-1">
+          <mxGeometry x="0.3787" y="45" relative="1" as="geometry">
+            <mxPoint x="550" y="550" as="sourcePoint" />
+            <mxPoint x="768" y="648" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q7RVaMp0JTr08KpsDfkK-12" value="Publish to&lt;br&gt;topic name" style="edgeStyle=none;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#1A1A1A;strokeWidth=2;fontFamily=Verdana;fontSize=12;sketch=1;curveFitting=1;jiggle=2;shadow=0;dashed=1;" edge="1" parent="1" source="Q7RVaMp0JTr08KpsDfkK-4" target="1ea317790d2ca983-1">
+          <mxGeometry x="-0.0407" y="43" relative="1" as="geometry">
+            <mxPoint x="121" y="230" as="sourcePoint" />
+            <mxPoint x="310" y="327" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q7RVaMp0JTr08KpsDfkK-17" value="Requesr for topic message" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="399" y="419" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7RVaMp0JTr08KpsDfkK-18" value="Ros message" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="610" y="480" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7RVaMp0JTr08KpsDfkK-19" value="Ros message" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="366" y="480" width="75" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

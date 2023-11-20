@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net" modified="2023-11-03T09:19:12.718Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="7rbQyEk7W3NmiV3rsttt" version="22.0.8" type="device">
+  <diagram name="Page-1" id="sNWxYvTQg_7ohVvIMBGZ">
+    <mxGraphModel dx="744" dy="1486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ppSS---bDMwYsIIUeWyq-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ppSS---bDMwYsIIUeWyq-12" target="ppSS---bDMwYsIIUeWyq-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ppSS---bDMwYsIIUeWyq-12" value="&lt;b&gt;Start&lt;/b&gt;:&lt;br&gt;Calibration" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="15" y="-330" width="75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ppSS---bDMwYsIIUeWyq-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ppSS---bDMwYsIIUeWyq-13" target="ppSS---bDMwYsIIUeWyq-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ppSS---bDMwYsIIUeWyq-13" value="Retrieve the pre-saved trajectories" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="-240" width="105" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ppSS---bDMwYsIIUeWyq-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ppSS---bDMwYsIIUeWyq-14" target="ppSS---bDMwYsIIUeWyq-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ppSS---bDMwYsIIUeWyq-14" value="Balance Setup." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-230" width="75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ppSS---bDMwYsIIUeWyq-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ppSS---bDMwYsIIUeWyq-15" target="ppSS---bDMwYsIIUeWyq-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ppSS---bDMwYsIIUeWyq-15" value="Obtain the crucible" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-230" width="75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ppSS---bDMwYsIIUeWyq-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ppSS---bDMwYsIIUeWyq-16" target="ppSS---bDMwYsIIUeWyq-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ppSS---bDMwYsIIUeWyq-16" value="Configure the dosing parameters" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="-235" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ppSS---bDMwYsIIUeWyq-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ppSS---bDMwYsIIUeWyq-20" target="ppSS---bDMwYsIIUeWyq-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="595" y="-125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ppSS---bDMwYsIIUeWyq-20" value="Control the powder dosing process" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="-235" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ppSS---bDMwYsIIUeWyq-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ppSS---bDMwYsIIUeWyq-21" target="ppSS---bDMwYsIIUeWyq-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ppSS---bDMwYsIIUeWyq-21" value="return the crucible" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="-150" width="75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ppSS---bDMwYsIIUeWyq-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ppSS---bDMwYsIIUeWyq-22" target="ppSS---bDMwYsIIUeWyq-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ppSS---bDMwYsIIUeWyq-22" value="Unset the balance" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-150" width="75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ppSS---bDMwYsIIUeWyq-31" value="&lt;b&gt;End&lt;/b&gt;:&lt;br&gt;Go Home" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-150" width="75" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
