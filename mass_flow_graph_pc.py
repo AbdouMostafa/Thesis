@@ -16,18 +16,18 @@ from sklearn import metrics
 masses = defaultdict(list)
 angles = (5, 13, 16, 21)
 
-pulse = 2.8
-speed = 1.775
+pulse = 7.0
+speed = 0.71
 speed_first = 0 #int(input("Speed first or not? 1 for yes, and 0 for no: "))
 freq = 0 #int(input("Which frequency? "))
-no = 1
-an_angle = 5
+no = 10
+an_angle = 21
 
 #num_of_experiments = 4
 
-valid = f"D:/FX_Niryo2/exp/valid2g/{pulse}s/"
-nvalid = f"D:/FX_Niryo2/exp/not_valid2g/{pulse}s/"
-bvalid = "D:/FX_Niryo2/exp/" #+ "valid2g/"
+valid = f"D:/fluxana/FX_Niryo2/exp/valid2g/{pulse}s/"
+nvalid = f"D:/fluxana/FX_Niryo2/exp/not_valid2g/{pulse}s/"
+bvalid = "D:/fluxana/FX_Niryo2/exp/" #+ "valid2g/"
 
 path = os.path.expanduser(valid)
 
@@ -175,7 +175,7 @@ def average_angle(angle=an_angle):
     ax0.plot(np.array([1]*len(avg_flow)), avg_flow, label="At 1 gram")
     err5 = ax0.errorbar(avg_dosed, avg_flow, xerr=xerror, ecolor="red", label="Error bar of each point", fmt='none')
     plt.xlim(0, 2)
-    plt.ylim(0, max(avg_flow))
+    plt.ylim(0, max(avg_flow) + max(avg_flow)/20)
     plt.ylabel('Mass flow [g/s]', fontsize=12)
     plt.xlabel('Dosed Mass [g]', fontsize=12)
 
@@ -290,5 +290,5 @@ average_angle()
 
 #mass_ani = animation.FuncAnimation(fig, update_plot,
                                    #frames=100, interval=60, repeat=False, blit=True)
-#plt.savefig(name + '.png')
-plt.show()
+plt.savefig(name + '.png')
+#plt.show()
